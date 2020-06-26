@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Script by Syonyk: https://syonyk.blogspot.com/
+# Do what you wish with it.  Patches welcome at:
+# https://github.com/syonyk/pinebookpro
+
 if [ $# -eq 0 ]; then
 	echo "Usage: sudo pbp_cpu.sh [all, big, little, status, gov [governor]]"
 	exit

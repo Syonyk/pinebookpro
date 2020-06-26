@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Script by Syonyk: https://syonyk.blogspot.com/
+# Do what you wish with it.  Patches welcome at:
+# https://github.com/syonyk/pinebookpro
+
 # These probably won't have to change at any point...
 CPUSTAT_BASE="/sys/devices/system/cpu"
 TEMP_BASE="/sys/class/thermal"
