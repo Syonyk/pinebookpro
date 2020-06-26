@@ -26,6 +26,8 @@ You probably won't need much more than powersave, performance, and schedutil on 
 
 Shows CPU frequency, online/offline status (the 0/1 after the CPU number), current frequency, current governor, the two temperature zones, and power stats (if you're on the battery - you only get voltage if charging).
 
+You might want to do something like ```watch -n 1 ./pbp-status.sh```
+
 ```
 CPU0: 0 Freq: 408 MHz	(schedutil)
 CPU1: 0 Freq: 408 MHz	(schedutil)
